@@ -4,7 +4,7 @@ Fine Outer-Wall, merging two gcode files of different layer height to create spe
 It merges outer-wall from finer layer-height(ex. 0.1mm) gcode with other portions that including infill, inner-wall from rough layer-height(ex. 0.3mm).
 
 ## Usage
-1. Create two gcode files from slicer with rough(ex. 0.3mm) and fine(ex. 0.1mm) layer-height from exact same model. The slice setting shoud be exlactly same except layer-height.
+1. Create two gcode files from slicer with rough(ex. 0.3mm) and fine(ex. 0.1mm) layer-height from exact same model. The two slice settings shoud be exlactly same except layer-height.
 
 `make_fow_gcode(gcode_file_rough, gcode_file_fine, gcode_file_new, layer_height_init, layer_height_rough, layer_height_fine)`
 
