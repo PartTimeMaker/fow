@@ -10,12 +10,12 @@ This python code merges outer-wall from finer layer-height(ex. 0.1mm) gcode with
 
 `make_fow_gcode(gcode_file_rough, gcode_file_fine, gcode_file_new, layer_height_init, layer_height_rough, layer_height_fine)`
 
-* gcode_file_rough: gcode file path of rough layer-height setting
-* gcode_file_fine: gcode file path of fine layer-height setting
-* gcode_file_new: gcode file path of output that created as the merge
-* layer_height_init: a height of initial layer
-* layer_height_rough: a layer height of rough setting (ex. 0.3mm)
-* layer_height_fine: a layer height of fine setting (ex. 0.1mm)
+** gcode_file_rough: gcode file path of rough layer-height setting
+** gcode_file_fine: gcode file path of fine layer-height setting
+** gcode_file_new: gcode file path of output that created as the merge
+** layer_height_init: a height of initial layer
+** layer_height_rough: a layer height of rough setting (ex. 0.3mm)
+** layer_height_fine: a layer height of fine setting (ex. 0.1mm)
 
 2. For the slice, wall should be before infiil, and outer-wall should be before inner-wall.
 
