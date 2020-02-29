@@ -6,6 +6,8 @@ It merges outer-wall from finer layer-height(ex. 0.1mm) gcode with other portion
 ## Usage
 1. Create two gcode files from slicer with rough(ex. 0.3mm) and fine(ex. 0.1mm) layer-height from exact same model. The two slice settings shoud be exlactly same except layer-height.
 
+* From gcode_fow.py
+
 `make_fow_gcode(gcode_file_rough, gcode_file_fine, gcode_file_new, layer_height_init, layer_height_rough, layer_height_fine)`
 
 * gcode_file_rough: gcode file path of rough layer-height setting
