@@ -19,6 +19,6 @@ It merges outer-wall from finer layer-height(ex. 0.1mm) gcode with other portion
 
 ## Limitations
 As it is a proposal of concept, there are some limitations.
-*Some useless garbage travel of X,Y may included from original gcode.
+* Some useless garbage travel of X,Y may included from original gcode.
 * Gcode files with support are not tested.
 * Gcode files with skirt are only tested.
