@@ -1,4 +1,4 @@
-# Fine Outer_Wall
+# Fine Outer Wall
 Fine Outer-Wall, merging two gcode files of different layer height to create speed and outer-wall quality compromised gcode file for FDM 3D printing.
 
 It merges outer-wall from outer-wall from finer layer-height(ex. 0.1mm) gcode with other portion that including infill, inner-wall from rough layer-height(ex. 0.3mm).
